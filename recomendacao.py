@@ -76,6 +76,15 @@ def getSimilares(usuario):
     similaridade.sort()
     similaridade.reverse()
     return similaridade
+
+
+# retorna os semelhantes acima de um limite informado como parâmetro
+def getSimilaresIfLimit(target, limit):
+    similares = [(euclidiana(target, outro), outro) for outro in avaliacoes if outro != target and euclidiana(target, outro) > limit]
+
+    similares.sort()
+    similares.reverse()
+    return similares
            
 
 
