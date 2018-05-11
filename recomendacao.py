@@ -96,11 +96,6 @@ def getRecomendacoes(usuario):
     rankings.sort()
     rankings.reverse()
     return rankings
-                
-
-
-
-                
            
 
 
