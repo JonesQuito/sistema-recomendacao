@@ -10,7 +10,7 @@
 
 ## Módulos do curso / concluídos
 - [X] Introduçao e conteúdo do curso
-- [] Busca por usuários
+- [X] Busca por usuários
 - [] Recomendação de filmes com filtragem baseada em usuários
 - [] Recomendação de filmes com filtragem baseada em itens
 - [] Considerações finais
